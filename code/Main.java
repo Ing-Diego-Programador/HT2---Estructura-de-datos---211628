@@ -27,8 +27,8 @@ public class Main {
          
            for(String expresion: operations){
             Lector dec = new Lector();
-            System.out.println("Resultado: " + expresion);
-            System.out.println(dec.DecodeExpresion(expresion));
+            System.out.println("Expresión: " + expresion);
+            System.out.println("Resultado: " + dec.DecodeExpresion(expresion));
             }
         }
         catch(FileNotFoundException f){
